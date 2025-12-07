@@ -58,51 +58,27 @@ ExcelImageExtractor\dist\extract_gui.exe
 
 🖼️ How to Use
 1. Open ExcelImageExtractor.exe
-
 A simple GUI window will appear.
-
 2. Select an Excel file
-
 Click Browse and choose any .xlsx file.
-
 3. Select an output folder
-
 All extracted images will be saved to the folder you choose.
-
 4. Click Start Extraction
-
 The program will:
-
 Read the Excel file as a ZIP
-
 Extract all images from xl/media/
-
 Save them with sequential file names
-
 After extraction is completed, a message box will appear and the program will close automatically.
-
 📦 Dependencies
-
 This tool uses only Python standard libraries:
-
 tkinter
-
 zipfile
-
 os
-
 traceback
-
 No third-party packages required.
-
 🧩 Code Overview
-
 Main logic:
-
 Excel (.xlsx) is essentially a ZIP archive
-
 Inserted images are stored under xl/media/
-
 The program reads the ZIP and exports all media files
-
 The GUI is built using tkinter for smooth and simple user interaction
