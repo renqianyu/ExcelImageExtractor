@@ -1,12 +1,12 @@
 ExcelImageExtractor
 一个简单易用的桌面工具，用于从 Excel 文件（.xlsx）中批量提取插入的图片（位于 xl/media）。
 适合不想安装 Python 的普通用户，只需双击即可运行。
-可以直接下载ExcelImageExtractor\dist\extract_gui.exe文件
+可以直接下载ExcelImageExtractor/dist/extract_gui.exe文件
 ExcelImageExtractor
 A simple and user-friendly desktop tool for batch-extracting images embedded in Excel (.xlsx) files (located in xl/media).
 Designed for users who don't want to install Python — just double-click and run.
 You can directly download the executable here:
-ExcelImageExtractor\dist\extract_gui.exe
+ExcelImageExtractor/dist/extract_gui.exe
 
 ✨ 功能特点
 ✔️ 从 .xlsx 文件中批量提取所有图片
